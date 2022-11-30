@@ -1,16 +1,15 @@
 import "./App.css";
-import { useState } from "react";
+import {useState} from "react";
 import NavBar from "../../components/navbar/NavBar";
 import ActorsListPage from "../actorlistpage/ActorListPage";
 import LoginPage from "../loginpage/LoginPage";
 import MovieDetailpage from "../moviedetailpage/MovieDetailPage";
 import MoviesListPage from "../movieslistpage/MoviesListPage";
-import { Routes, Route } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import {movies} from '../../data.js'
 
 export default function App() {
   const [user, setUser] = useState(null);
-
   return (
     <div className="App">
       {user ? (

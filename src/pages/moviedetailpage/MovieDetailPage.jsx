@@ -17,7 +17,7 @@ export default function MovieDetailPage({movies}) {
           }
         </ul>
       </div>
-      <img src={`${movie.posterPath}`} />
+      <img src={`${movie.posterPath}`} alt="" />
     </div>
   )
 }

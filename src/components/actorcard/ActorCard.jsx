@@ -11,9 +11,8 @@ export default function ActorCard({ actor }) {
         background: `url(https://picsum.photos/${num}) no-repeat center center`,
         WebkitBackgroundSize: "cover"
       }}
-      className="item-card"
     >
-      <div className="title">
+      <div>
         <h1>{actor}</h1>
       </div>
     </div>
